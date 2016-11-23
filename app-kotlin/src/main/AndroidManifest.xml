@@ -11,7 +11,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".view.image.ImageActivity"
+            android:name=".view.main.MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -23,10 +23,9 @@
         <activity
             android:name=".view.detail.DetailMoreActivity"
             android:theme="@style/AppTheme.Black.NoActionBar" />
-
         <activity
             android:name=".view.detail_photo_id.DetailPhotoIdActivity"
-            android:theme="@style/AppTheme.Black.NoActionBar" />`
+            android:theme="@style/AppTheme.Black.NoActionBar" />
     </application>
 
 </manifest>

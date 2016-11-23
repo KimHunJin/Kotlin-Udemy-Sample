@@ -1,4 +1,4 @@
-package tech.thdev.kotlin_udemy_sample.view.blur_view
+package tech.thdev.kotlin_udemy_sample.view.custom_view
 
 import android.content.Context
 import android.graphics.Bitmap

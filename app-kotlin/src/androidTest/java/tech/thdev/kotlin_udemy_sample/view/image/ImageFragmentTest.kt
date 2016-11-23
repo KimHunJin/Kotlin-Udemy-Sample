@@ -19,7 +19,9 @@ import org.junit.Before
 import org.junit.Rule
 import org.junit.Test
 import tech.thdev.kotlin_udemy_sample.R
-import tech.thdev.kotlin_udemy_sample.view.image.adapter.holder.ImageGlideViewHolder
+import tech.thdev.kotlin_udemy_sample.view.recent_image.adapter.holder.ImageGlideViewHolder
+import tech.thdev.kotlin_udemy_sample.view.recent_image.ImageActivity
+import tech.thdev.kotlin_udemy_sample.view.recent_image.ImageFragment
 
 
 /**
@@ -45,7 +47,7 @@ class ImageFragmentTest {
 
     @Before
     fun setUp() {
-        fragment = rule.activity.supportFragmentManager.findFragmentById(R.id.frame_layout) as ImageFragment
+//        fragment = rule.activity.supportFragmentManager.findFragmentById(R.id.frame_layout) as ImageFragment
 
         awaitItemLoad()
     }

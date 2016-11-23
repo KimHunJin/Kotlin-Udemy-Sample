@@ -1,4 +1,4 @@
-package tech.thdev.kotlin_udemy_sample.view.image
+package tech.thdev.kotlin_udemy_sample.view.recent_image
 
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
@@ -19,6 +19,6 @@ class ImageActivity : AppCompatActivity() {
         toolbar.setTitle(R.string.app_name)
         setSupportActionBar(toolbar)
 
-        replaceFragmentToActivity(ImageFragment.getInstance(), R.id.frame_layout)
+//        replaceFragmentToActivity(ImageFragment.getInstance(), R.id.frame_layout)
     }
 }

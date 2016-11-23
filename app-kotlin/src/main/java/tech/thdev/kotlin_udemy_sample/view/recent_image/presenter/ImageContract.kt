@@ -1,8 +1,8 @@
-package tech.thdev.kotlin_udemy_sample.view.image.presenter
+package tech.thdev.kotlin_udemy_sample.view.recent_image.presenter
 
 import tech.thdev.kotlin_udemy_sample.data.RecentPhotoItem
 import tech.thdev.kotlin_udemy_sample.data.model.PhotoDataSource
-import tech.thdev.kotlin_udemy_sample.view.image.adapter.model.ImageViewAdapterContract
+import tech.thdev.kotlin_udemy_sample.view.recent_image.adapter.model.ImageViewAdapterContract
 import java.util.*
 
 /**

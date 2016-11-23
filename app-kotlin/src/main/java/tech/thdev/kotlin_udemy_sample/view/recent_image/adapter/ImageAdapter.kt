@@ -1,4 +1,4 @@
-package tech.thdev.kotlin_udemy_sample.view.image.adapter
+package tech.thdev.kotlin_udemy_sample.view.recent_image.adapter
 
 import android.content.Context
 import android.support.v7.widget.RecyclerView
@@ -8,10 +8,10 @@ import android.view.ViewGroup
 import tech.thdev.kotlin_udemy_sample.base.adapter.BaseViewHolder
 import tech.thdev.kotlin_udemy_sample.data.RecentPhotoItem
 import tech.thdev.kotlin_udemy_sample.listener.OnItemTouchListener
-import tech.thdev.kotlin_udemy_sample.view.image.adapter.holder.ImageAsyncViewHolder
-import tech.thdev.kotlin_udemy_sample.view.image.adapter.holder.ImageGlideViewHolder
-import tech.thdev.kotlin_udemy_sample.view.image.adapter.holder.ImageThreadViewHolder
-import tech.thdev.kotlin_udemy_sample.view.image.adapter.model.ImageViewAdapterContract
+import tech.thdev.kotlin_udemy_sample.view.recent_image.adapter.holder.ImageAsyncViewHolder
+import tech.thdev.kotlin_udemy_sample.view.recent_image.adapter.holder.ImageGlideViewHolder
+import tech.thdev.kotlin_udemy_sample.view.recent_image.adapter.holder.ImageThreadViewHolder
+import tech.thdev.kotlin_udemy_sample.view.recent_image.adapter.model.ImageViewAdapterContract
 import java.util.*
 
 /**

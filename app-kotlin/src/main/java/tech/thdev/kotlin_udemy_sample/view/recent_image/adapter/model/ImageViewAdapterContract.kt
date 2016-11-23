@@ -1,4 +1,4 @@
-package tech.thdev.kotlin_udemy_sample.view.image.adapter.model
+package tech.thdev.kotlin_udemy_sample.view.recent_image.adapter.model
 
 import android.view.MotionEvent
 import tech.thdev.kotlin_udemy_sample.data.RecentPhotoItem

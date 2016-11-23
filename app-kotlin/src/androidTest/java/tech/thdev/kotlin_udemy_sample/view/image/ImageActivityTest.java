@@ -21,6 +21,8 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 
 import tech.thdev.kotlin_udemy_sample.R;
+import tech.thdev.kotlin_udemy_sample.view.recent_image.ImageActivity;
+import tech.thdev.kotlin_udemy_sample.view.recent_image.ImageFragment;
 
 import static android.support.test.espresso.Espresso.onView;
 import static android.support.test.espresso.Espresso.pressBack;
@@ -44,7 +46,7 @@ public class ImageActivityTest {
 
     @Before
     public void setUp() {
-        fragment = (ImageFragment) mActivityTestRule.getActivity().getSupportFragmentManager().findFragmentById(R.id.frame_layout);
+//        fragment = (ImageFragment) mActivityTestRule.getActivity().getSupportFragmentManager().findFragmentById(R.id.frame_layout);
 
         awaitImageLoad();
     }

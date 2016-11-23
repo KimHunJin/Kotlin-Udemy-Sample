@@ -1,4 +1,4 @@
-package tech.thdev.kotlin_udemy_sample.view.image.adapter.holder
+package tech.thdev.kotlin_udemy_sample.view.recent_image.adapter.holder
 
 import android.content.Context
 import android.view.ViewGroup

@@ -1,4 +1,4 @@
-package tech.thdev.kotlin_udemy_sample.view.image.presenter
+package tech.thdev.kotlin_udemy_sample.view.recent_image.presenter
 
 import android.os.Handler
 import android.os.Looper
@@ -10,8 +10,8 @@ import retrofit2.Response
 import tech.thdev.kotlin_udemy_sample.constant.Constant
 import tech.thdev.kotlin_udemy_sample.data.RecentPhotoResponse
 import tech.thdev.kotlin_udemy_sample.data.model.PhotoDataSource
-import tech.thdev.kotlin_udemy_sample.view.image.adapter.ImageAdapter
-import tech.thdev.kotlin_udemy_sample.view.image.adapter.model.ImageViewAdapterContract
+import tech.thdev.kotlin_udemy_sample.view.recent_image.adapter.ImageAdapter
+import tech.thdev.kotlin_udemy_sample.view.recent_image.adapter.model.ImageViewAdapterContract
 
 /**
  * Created by tae-hwan on 10/23/16.
