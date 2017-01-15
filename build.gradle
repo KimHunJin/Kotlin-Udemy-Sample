@@ -10,7 +10,7 @@ buildscript {
         targetSdkVersion = 25
         minSdkVersion = 16
 
-        kotlin_version = '1.0.5-3'
+        kotlin_version = '1.0.6'
         supportLibraryVersion = '25.1.0'
 
         butterKnifeVersion = '8.4.0'
